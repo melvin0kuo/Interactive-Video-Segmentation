@@ -1,0 +1,2 @@
+python train_pro.py --dataset a2d  --model_id a2d_model_pro --pretrained_refvos --ck_pretrained_refvos ./checkpoints/model_a2d_only.pth 
+python test.py  --dataset a2d --resume ./checkpoints/model_best_a2d_model.pth --split val --display --results_folder ./results/ 
